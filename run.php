@@ -26,11 +26,11 @@ $earthLinkLoginParameters = array(
     "DirectoryNumber" => $earthLinkLoginNumber,
     "Password" => $earthLinkLoginPass,
     "version" => $earthLinkVersion,
-	"ApplicationID" => "MS_WebClient",
-	"ContextInfo" => "version 7.3",
-	"UserType" => "bgAdmin",
-	"errorRedirectTo" => "/bg/login.html?redirectTo=%%/bg%/main.html",
-	"redirectTo" => "/bg/main.html?justLoggedIn=1385053439"	
+    "ApplicationID" => "MS_WebClient",
+    "ContextInfo" => "version 7.3",
+    "UserType" => "bgAdmin",
+    "errorRedirectTo" => "/bg/login.html?redirectTo=%%/bg%/main.html",
+    "redirectTo" => "/bg/main.html?justLoggedIn=1385053439"	
 );
 
 /*
