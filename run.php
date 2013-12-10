@@ -5,19 +5,17 @@
  */
 $startDate = $_GET['startDate'];
 $endDate = $_GET['endDate'];
+
 if(strlen($startDate) == 0) $startDate = date("Y-m-d"); else $startDate = $_GET['startDate'];
 if(strlen($endDate) == 0) $endDate = date("Y-m-d"); else $endDate = $_GET['endDate'];
-
-$startDate = '2013-11-01';
-$endDate = '2013-11-21';
 
 /*
  * Set initial variables for the requests to EarthLink.
  */
 $earthLinkLoginEndPoint = "https://voip.elnk.us/login";
-$earthLinkLoginNumber = "xxx";
-$earthLinkLoginPass = "xxx";
-$earthLinkVersion = "7.4";
+$earthLinkLoginNumber = "YOUR_LOGIN_NUMBER";
+$earthLinkLoginPass = "YOUR_LOGIN_PASSWORD";
+$earthLinkVersion = "EARTHLINK_VERSION";
 
 /*
  * Build array of post parameters for login.
